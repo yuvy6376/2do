@@ -25,11 +25,11 @@ function GoalInput(props) {
       <View style={styles.inputContainer}>
         <Image
           style={styles.image}
-          source={require('../assets/images/goal.png')}
+          source={require('../assets/goal.png')}
         />
         <TextInput
           style={styles.textInput}
-          placeholder="Your course goal!"
+          placeholder="Your ninja way !"
           onChangeText={goalInputHandler}
           value={enteredGoalText}
         />
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 16,
-    backgroundColor: '#311b6b',
+    backgroundColor: 'black',
   },
   image: {
     width: 100,
